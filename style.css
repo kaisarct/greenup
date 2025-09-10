@@ -1,0 +1,206 @@
+html, body {
+  background-color: rgb(217, 236, 212) !important;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #76d47b;
+  padding: 15px 10%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding-top: 70px; /* Sesuaikan dengan tinggi navbar */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffffff
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0fdf4;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+header .logo {
+  max-width: 500px; /* atur ukuran logo */
+  width: 350%;
+  height: auto;
+}
+
+main {
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #bbf7d0, #ffffff);
+}
+/* Semua paragraf isi */
+p {
+  text-align: justify;     /* Rata kanan-kiri */
+  line-height: 1.6;        /* Spasi antar baris */
+  font-size: 16px;         /* Ukuran font */
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 10px 20px;       /* Jarak kiri kanan */
+}
+
+/* Paragraf intro di atas */
+.intro {
+  text-align: center;      /* Biar rata tengah */
+  margin: 5px 0 20px 0;    /* Jarak atas & bawah aja */
+}
+.about-section p:hover {
+    color: #333 !important;
+    transform: none !important;
+    cursor: default !important;
+}
+#gallery img {
+  transition: all 0.3s ease;
+}
+#gallery img:hover {
+  border: 3px solid #4CAF50;
+  box-shadow: 0 0 10px #4CAF50;
+}
+section.quotes {
+  background: url(QUOTES.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff; 
+  height: 250px;             /* 👉 atur tinggi sesuai garis merah (misalnya 250px) */
+  display: flex;
+  justify-content: center;   /* center horizontal */
+  align-items: center;       /* center vertical */
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  padding: 0 20px;           /* biar teks gak mepet ke pinggir */
+}
+section.quotes,
+section.quotes * {
+    color: #fff !important;
+}
+#team p {
+  text-align: center !important;
+}.team-member img {
+  width: 250px;           /* atur ukuran biar rapi */
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease; /* animasi halus */
+}
+
+.team-member img:hover {
+  transform: scale(1.05); /* efek zoom saat hover */
+}
+#blog > .blog-container > p {
+  text-align: center;
+}
+/* Footer Style */
+.footer {
+  background: #76d47b;         /* hitam tua */
+  color: #eee;               /* teks terang */
+  padding: 50px 20px 20px;
+  margin-top: 50px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.footer-col h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.footer-col p {
+  line-height: 1.6;
+  text-align: center;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col ul li {
+  margin: 8px 0;
+}
+
+.footer-col a {
+  color: #333;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-col a:hover {
+  color: #1fbf61;           /* hijau aksen */
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 30px;
+  border-top: 1px solid #444;
+  font-size: 0.9rem;
+  color: #333;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden; /* cegah geser kanan */
+}
+
+img, .logo {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-container {
+  word-wrap: break-word;   /* biar email/teks panjang bisa turun ke bawah */
+  overflow-wrap: break-word;
+}

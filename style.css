@@ -204,3 +204,27 @@ img, .logo {
   word-wrap: break-word;   /* biar email/teks panjang bisa turun ke bawah */
   overflow-wrap: break-word;
 }
+
+.navbar {
+  position: relative;
+  height: 50px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  position: fixed;
+
+
+  background-image:
+    url("logo.png"),
+    url("logo.png");
+
+  background-repeat: no-repeat, no-repeat;
+
+  background-position:
+    left 10px center,
+    right 10px center;
+
+  background-size:
+    60px,
+    60px;
+}

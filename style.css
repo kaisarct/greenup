@@ -54,7 +54,7 @@ body {
 
 header {
   text-align: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 header .logo {
@@ -215,8 +215,8 @@ img, .logo {
 
 
   background-image:
-    url("logo.png"),
-    url("logo.png");
+    url("black.png"),
+    url("black.png");
 
   background-repeat: no-repeat, no-repeat;
 
@@ -227,4 +227,35 @@ img, .logo {
   background-size:
     60px,
     60px;
+}
+section.kaisar {
+  position: relative;
+  min-height: 50vh;
+  padding: 100px 0;
+  overflow: hidden;
+
+  /* BACKGROUND */
+  background: url("anakayam.jpg") center/cover no-repeat;
+  
+}
+
+/* LOGO DI ATAS BACKGROUND */
+section.kaisar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: url("okoklah.png") center/300px no-repeat;
+  opacity: 0;
+
+  animation: logoFade 20s ease-in-out infinite;
+}
+
+/* ANIMASI LOGO */
+@keyframes logoFade {
+  0%   { opacity: 0; }   /* mulai invisible */
+  20%  { opacity: 1; }   /* fade in */
+  50%  { opacity: 1; }   /* diem */
+  80%  { opacity: 0; }   /* fade out */
+  100% { opacity: 0; }
 }
